@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "172081388332",
+    "firebase_url": "https://dailyraffle-a870c.firebaseio.com",
+    "project_id": "dailyraffle-a870c",
+    "storage_bucket": "dailyraffle-a870c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172081388332:android:63c2abc06afb3ee9206a89",
+        "android_client_info": {
+          "package_name": "com.servesmile.dailyluck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172081388332-hndc3nu9ent2kr7gv4khfoil65ak48rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.servesmile.dailyluck",
+            "certificate_hash": "18dbf4f0b7494490c583511e73a53c9589b8d79f"
+          }
+        },
+        {
+          "client_id": "172081388332-p1f5k39jc1n1rfbkv8qskr4dvsgq0kll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.servesmile.dailyluck",
+            "certificate_hash": "04c97cbed48fd21f450c8f128e13990b24d2b3d3"
+          }
+        },
+        {
+          "client_id": "172081388332-hbvb84f7hh56ieimegkn3gqbntsgqnn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqM4FNl4CSr2X6PHXalTjdmNActa-n_v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172081388332-hbvb84f7hh56ieimegkn3gqbntsgqnn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172081388332:android:9ec458bc59219015206a89",
+        "android_client_info": {
+          "package_name": "com.servesmile.dailyraffle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172081388332-7lgjbihsjavv8qn52da5tb2jehiaqlg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.servesmile.dailyraffle",
+            "certificate_hash": "04c97cbed48fd21f450c8f128e13990b24d2b3d3"
+          }
+        },
+        {
+          "client_id": "172081388332-hbvb84f7hh56ieimegkn3gqbntsgqnn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqM4FNl4CSr2X6PHXalTjdmNActa-n_v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172081388332-hbvb84f7hh56ieimegkn3gqbntsgqnn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

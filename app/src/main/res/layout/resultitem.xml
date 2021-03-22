@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/btnshape"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:id="@+id/one"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:id="@+id/two"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:id="@+id/three"
+                />
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:textColor="#000"
+                android:id="@+id/four"
+                android:textSize="20dp"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:id="@+id/five"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:text="1"
+                android:background="@drawable/bubble"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:id="@+id/six"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DRAW 1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/abel"
+            android:textSize="17dp"
+            android:id="@+id/drawname"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRIZE : 500$"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/abel"
+            android:textSize="17dp"
+            android:id="@+id/price"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="36 : Winners"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/abel"
+            android:textSize="13dp"
+            android:id="@+id/winners"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key :\naf0e3d35cc8c84cb3f459bffc06e8ed7c9"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/key"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/abel"
+            android:textSize="13dp"
+            android:visibility="gone"
+            android:textIsSelectable="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hash :\naf0e3d35cc8c84cb3f459bffc06e8ed7c9"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/abel"
+            android:textSize="13dp"
+            android:id="@+id/hash"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"
+            android:textIsSelectable="true"
+
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:textColor="#fff"
+            android:id="@+id/fairdraw"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/btnshape"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Fair Draw"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

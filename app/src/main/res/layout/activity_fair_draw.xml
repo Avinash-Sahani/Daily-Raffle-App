@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.samutech.dailyluck.FairDraw">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/stroke"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAIR DRAW"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fair Draw implies that the randoms/outcomes of the winning numbers are generated before the Draw starts."
+            android:textColor="#fff"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The outcome cannot be altered/changed in anyway.Therefore,it is proven that the App/Admins cannot changed the outcome of the Draw after tickets have been collected."
+            android:textColor="#fff"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To prove a Draw is fair,make sure the following equation holds : HMAC-512 of the winning numbers using the hash key = Hash"
+            android:textColor="#fff"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can test it using any HMAC-512 hash generator,such as this one."
+            android:textColor="#fff"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btnshape"
+            android:text="Verify Result"
+            android:id="@+id/verifyresult"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Use HMAC-SHA512 Algorithm)"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

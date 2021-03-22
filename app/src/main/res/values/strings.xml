@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daily Luck</string>
+
+    <string name="facebook_app_id">579387059568822</string>
+    <string name="fb_login_protocol_scheme">fb579387059568822</string>
+
+</resources>

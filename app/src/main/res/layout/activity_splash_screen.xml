@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splas"
+    tools:context="com.samutech.dailyluck.SplashScreen">
+
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/content"
+        app:rb_color="#70FFFFFF"
+        android:visibility="gone"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="6">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logoapp"/>
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="6dp"
+        android:layout_above="@id/adView"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/colorPrimary" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        ads:adUnitId="ca-app-pub-7282278288207848/7728225637"/>
+
+</RelativeLayout>

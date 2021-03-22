@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:title="Referrals"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        android:visibility="gone"
+        android:layout_marginHorizontal="5dp"
+        >
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#EBEBEB"
+            android:hint="ADD REFERRAL CODE"
+            android:textSize="13dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:id="@+id/addrefer"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:layout_marginLeft="5dp"
+            android:text="SAVE"
+            android:id="@+id/save"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invite friends to get more tickets.Each time a friend joins you get 5 Tickets.If your friend wins then you will get 5% of the prize"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="@font/abel"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/refercode"
+            android:layout_marginBottom="100dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/refers"
+            android:layout_marginBottom="10dp"
+            android:textSize="18dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

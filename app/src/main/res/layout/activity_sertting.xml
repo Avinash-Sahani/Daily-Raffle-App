@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="com.samutech.dailyluck.SerttingActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        app:title="Setting"
+        android:id="@+id/toolbar"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="GAME RULES"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:onClick="rules"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="HOW TO PLAY"
+                android:onClick="howtoplay"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="CONTACT US"
+                android:onClick="mail"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="RATE US"
+                android:onClick="rate"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="privacy policy"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:onClick="privacypolicy"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="TERM AND CONDTIONS"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:onClick="term"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="FOLLOW US ON INSTAGRAM"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:onClick="insta"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnshape"
+                android:text="FOLLOW US ON fACEBOOK"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:onClick="facebook"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnshape"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can you guess which one ? "
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DRAW 1"
+                android:gravity="right"
+                android:id="@+id/name"
+                android:fontFamily="@font/abel"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One of the Number is 1"
+            android:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:id="@+id/hint"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/abel"
+                android:gravity="center"
+                android:text="Registration"
+                android:textColor="#fff"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="60dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnshape"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/google"
+                    android:padding="15dp"
+                    android:text="LOGIN WITH GOOGLE"
+                    android:fontFamily="@font/abel"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:id="@+id/google"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnshape"
+                    android:layout_marginHorizontal="50dp"
+                    android:drawableLeft="@drawable/facebook"
+                    android:padding="15dp"
+                    android:fontFamily="@font/abel"
+                    android:textStyle="bold"
+                    android:id="@+id/facebook"
+                    android:textSize="18dp"
+                    android:text="LOGIN WITH FACEBOOK"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnshape"
+                    android:layout_marginHorizontal="50dp"
+                    android:drawableLeft="@drawable/user"
+                    android:padding="15dp"
+                    android:id="@+id/guest"
+                    android:fontFamily="@font/abel"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="LOGIN AS GUEST"
+                    android:layout_marginBottom="30dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="150dp"
+                        android:layout_height="3dp"
+                        android:background="#FFF"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="OR"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/abel"
+                        android:textColor="#fff"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <View
+                        android:layout_width="150dp"
+                        android:layout_height="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#FFF"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sms will be sent,message and data rates may apply"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/abel"
+                    android:textColor="#fff"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:background="@drawable/btnshape"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:padding="15dp">
+
+                    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:ccp_defaultNameCode="US"
+                        android:layout_gravity="center"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#fff"
+                        android:hint="Phone Number"
+                        android:fontFamily="@font/abel"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/btnshape"
+                    android:fontFamily="@font/abel"
+                    android:text="VERIFY"
+                    android:inputType="number"
+                    android:textSize="18dp"
+                    android:backgroundTint="#0066FF"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:id="@+id/verify"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:buttonTint="#fff"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By signing up your agree to our Term and Conditions &amp; Privacy Policy"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/abel"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
